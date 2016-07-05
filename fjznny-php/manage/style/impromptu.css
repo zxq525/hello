@@ -1,0 +1,135 @@
+.jqifade{
+	position: absolute;
+	background-color: #333333;
+}
+div.jqi{
+	width: 480px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	position: absolute;
+	background-color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	border: solid 3px #e2e8e6;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding: 7px;
+}
+div.jqi .jqicontainer{
+	font-weight: bold;
+}
+div.jqi .jqiclose{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 20px;
+	cursor: default;
+	text-align: center;
+	padding: 0px 0 2px 0;
+	color: #727876;
+	font-weight: bold;
+	background-color: #e2e8e6;
+	-moz-border-radius-bottomLeft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	border-left: solid 1px #e2e8e6;
+	border-bottom: solid 1px #e2e8e6;
+	cursor:pointer;
+}
+div.jqi .jqimessage{
+	padding: 15px 12px;
+	line-height: 20px;
+	color: #444444;
+}
+div.jqi .jqibuttons{
+	text-align: right;
+	padding: 5px 0 5px 0;
+	border: solid 1px #e2e8e6;
+	background-color: #f3f3f3;
+}
+div.jqi button{
+	padding: 3px 10px;
+	margin: 0 10px;
+	background-color: #2F6073;
+	border: solid 1px #f4f4f4;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 12px;
+}
+div.jqi button:hover{
+	background-color: #728A8C;
+}
+div.jqi button.jqidefaultbutton{
+	background-color: #CD0000;
+}
+.jqiwarning .jqi .jqibuttons{
+	background-color: #CD0000;
+}
+
+
+
+.checkoutfade{
+	position: absolute;
+	background-color: #333333;
+}
+div.checkout{
+	width: 650px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	position: absolute;
+	background-color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	border: solid 3px #e2e8e6;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding: 7px;
+}
+div.checkout .checkoutcontainer{
+	font-weight: bold;
+}
+div.checkout .checkoutclose{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 20px;
+	cursor: default;
+	text-align: center;
+	padding: 0px 0 2px 0;
+	color: #727876;
+	font-weight: bold;
+	background-color: #e2e8e6;
+	-moz-border-radius-bottomLeft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	border-left: solid 1px #e2e8e6;
+	border-bottom: solid 1px #e2e8e6;
+	cursor:pointer;
+}
+div.checkout .checkoutmessage{
+	padding: 15px 7px;
+	line-height: 20px;
+	color: #444444;
+}
+div.checkout .checkoutbuttons{
+	text-align: right;
+	padding: 5px 0 5px 0;
+	border: solid 1px #e2e8e6;
+	background-color: #f3f3f3;
+}
+div.checkout button{
+	padding: 3px 10px;
+	margin: 0 10px;
+	background-color: #2F6073;
+	border: solid 1px #f4f4f4;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 12px;
+}
+div.checkout button:hover{
+	background-color: #728A8C;
+}
+div.checkout button.checkoutdefaultbutton{
+	background-color: #CD0000;
+}
+.checkoutwarning .checkout .checkoutbuttons{
+	background-color: #CD0000;
+}

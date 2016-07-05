@@ -1,0 +1,29 @@
+.container {
+	width: 935px;
+	position: relative;
+	height:170px;
+	overflow: hidden;
+}
+.ui-carousel {
+	height: 170px;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: relative; /*for ie7 to work e.g in html carousels*/
+	width: 935px
+}
+
+.ui-carousel .wrapper {
+    margin: 0;
+    padding: 0;
+    width: 9999px;
+	height: 170px;
+}
+
+.ui-carousel .wrapper li{
+	border: 0;
+	display: block;
+	float: left;
+	height: 170px;
+	overflow: hidden;
+}
